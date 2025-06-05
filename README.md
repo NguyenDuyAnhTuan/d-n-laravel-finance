@@ -1,61 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💸 App Quản Lý Chi Tiêu 6 Hũ
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Ứng dụng quản lý tài chính cá nhân theo **phương pháp 6 hũ tài chính** – một công cụ đơn giản, trực quan giúp bạn kiểm soát thu nhập và chi tiêu một cách hiệu quả, minh bạch và bền vững.
 
-## About Laravel
+---
+## 👥 Thành viên nhóm
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Dự án được thực hiện bởi các thành viên:
+- 🧑 Nguyễn Duy Anh Tuấn
+## 📚 Giới thiệu
+**6 Hũ Tài Chính** là một phương pháp quản lý tiền bạc nổi tiếng do T. Harv Eker giới thiệu. Mỗi khoản thu nhập sẽ được chia thành 6 quỹ (hũ) khác nhau, phục vụ cho những mục tiêu tài chính riêng biệt:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+| Hũ | Mục đích | Tỷ lệ gợi ý |
+|----|----------|-------------|
+| **NEC** | Nhu cầu thiết yếu (ăn, ở, điện nước,...) | 55% |
+| **FFA** | Tự do tài chính (đầu tư, tiết kiệm dài hạn) | 10% |
+| **EDU** | Giáo dục (học hành, phát triển bản thân) | 10% |
+| **LTSS** | Tiết kiệm dài hạn (mua nhà, xe,...) | 10% |
+| **PLAY** | Hưởng thụ (du lịch, ăn chơi) | 10% |
+| **GIVE** | Cho đi (từ thiện, hỗ trợ người khác) | 5% |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Ứng dụng giúp bạn mô phỏng và áp dụng phương pháp này trong đời sống hàng ngày.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🚀 Chức năng chính
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 1. 👤 Đăng ký / Đăng nhập
+- Tạo tài khoản người dùng, bảo mật qua `localStorage`
+- Giao diện đơn giản, dễ sử dụng
+- Chuyển hướng tự động nếu chưa đăng nhập
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 2. 🏠 Trang Tổng Quan (Dashboard)
+- Hiển thị tổng số dư, thu nhập, chi tiêu của người dùng
+- Phân tích số dư hiện tại của từng hũ
+- Có bộ lọc theo ngày, tháng, quý, năm
 
-## Laravel Sponsors
+### 3. 💰 Quản lý Thu Nhập
+- Thêm khoản thu nhập mới: lương, thưởng, phụ cấp, v.v.
+- Tự động phân bổ thu nhập vào 6 hũ theo tỷ lệ
+- Hiển thị danh sách thu nhập chi tiết
+- Bộ lọc thời gian và tìm kiếm mô tả
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 4. 💸 Quản lý Chi Tiêu
+- Ghi lại từng khoản chi theo từng hũ
+- Trừ tiền khỏi hũ tương ứng
+- Chỉnh sửa hoặc xóa khoản chi
+- Tìm kiếm mô tả, lọc theo thời gian
 
-### Premium Partners
+### 5. ⚙️ Cài Đặt
+- Tùy chỉnh tỷ lệ phân bổ 6 hũ theo nhu cầu cá nhân
+- Đặt lại toàn bộ dữ liệu người dùng
+- Đặt lại mật khẩu (tuỳ chọn mở rộng)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
