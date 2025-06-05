@@ -7,12 +7,7 @@
 ## 👥 Thành viên nhóm
 
 Dự án được thực hiện bởi các thành viên:
-
-- 🐶 Phạm Lê Đình An
-- 🧑 Hà Lê Quang Minh
 - 🧑 Nguyễn Duy Anh Tuấn
-- 🧑 Nguyễn Đức Tuấn
-
 ## 📚 Giới thiệu
 
 **6 Hũ Tài Chính** là một phương pháp quản lý tiền bạc nổi tiếng do T. Harv Eker giới thiệu. Mỗi khoản thu nhập sẽ được chia thành 6 quỹ (hũ) khác nhau, phục vụ cho những mục tiêu tài chính riêng biệt:
@@ -88,16 +83,3 @@ expense-tracker-6hu/
 └── README.md            ← Tài liệu hướng dẫn dự án
 ~~~
 
-## 📬 Liên hệ
-
-Nếu bạn có bất kỳ câu hỏi, góp ý hoặc muốn hợp tác phát triển dự án, vui lòng liên hệ qua:
-
-- 📧 Email: nhom99@gmail.com
-- 🌐 Website: https://nhom99.com
-- 🐙 GitHub: https://github.com/githubcuaan/QuanLyTaiChinh_KTPM_Nhom99
-
-## 📄 License
-
-MIT License © 2025
-
-> “Hãy để mỗi đồng tiền bạn chi ra phản ánh đúng giá trị của nó.”
