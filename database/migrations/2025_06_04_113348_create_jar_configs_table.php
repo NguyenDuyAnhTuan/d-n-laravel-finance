@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('jar_configs', function (Blueprint $table) {
             $table->id();
+            $table->string('name'); // Tên hũ
+            $table->decimal('percent', 5, 2); // Phần trăm phân bổ
+            $table->text('description')->nullable(); // Mô tả (nếu có)
             $table->timestamps();
         });
     }

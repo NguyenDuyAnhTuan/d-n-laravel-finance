@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('expenses', function (Blueprint $table) {
             $table->id();
+            $table->string('name'); // Tên khoản chi
+            $table->decimal('amount', 15, 2); // Số tiền
+            $table->date('date'); // Ngày chi
+            $table->text('note')->nullable(); // Ghi chú (nếu có)
             $table->timestamps();
         });
     }
