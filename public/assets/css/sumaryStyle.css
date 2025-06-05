@@ -1,0 +1,110 @@
+/* Section */
+section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    flex: 1;
+}
+
+.sumary-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.filter {
+
+}
+
+.filter .active {
+    background: #70aae5;
+    color: white;
+  }
+
+.filter button {
+    /* margin-right: -10px; */
+    padding: 4px 8px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.sumary-head h1 {
+    color: #70aae5;
+}
+
+.sumary-content {
+}
+
+.content {
+    flex: 1;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 6px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.icon-circle {
+    background-color: #ccc;
+    padding: 16px 20px;
+    border-radius: 50%;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle i {
+    color: #70aae5;
+    font-size: 30px;
+}
+
+.collum-ctn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collum-ctn p {
+    color: #656565;
+}
+
+.jars {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.jar {
+    background: white;
+    flex: 1 0 15%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.jar strong {
+    display: block;
+    margin: 5px 0;
+    color: #333;
+}
+
+.jar-title {
+    text-align: center;
+    width: 100%;
+}
+

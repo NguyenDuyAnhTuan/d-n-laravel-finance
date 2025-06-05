@@ -1,0 +1,142 @@
+.thunhap-container {
+  margin: auto;
+  background-color: #f5f5f5;
+  flex: 1;
+}
+
+.thunhap-header-box {
+  background-color: transparent;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.thunhap-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.thunhap-page-header h1 {
+  margin: 0;
+  color: #70aae5;
+  font-size: 1.8rem;
+}
+
+.thunhap-add-btn {
+  background: #70aae5;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.thunhap-add-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 4px rgba(112, 170, 229, 0.3);
+}
+
+.thunhap-divider {
+  
+}
+
+.thunhap-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+
+.thunhap-controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.thunhap-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.thunhap-btn {
+  background-color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.thunhap-btn:hover {
+  transform: scale(1.02);
+}
+
+.thunhap-btn.active {
+  background-color: #70aae5;
+  color: white;
+}
+
+.thunhap-search-box {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width: 220px;
+}
+
+.thunhap-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thunhap-table thead th {
+  background-color: #f2f9ff;
+  text-align: left;
+  padding: 12px;
+  color: #333;
+}
+
+.thunhap-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.thunhap-action-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: all 0.3s;
+}
+
+.thunhap-action-btn:hover {
+  transform: scale(1.1);
+  color: #70aae5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .thunhap-controls {
+    flex-direction: column;
+  }
+  
+  .thunhap-filter-bar {
+    justify-content: center;
+  }
+  
+  .thunhap-search-box {
+    width: 100%;
+  }
+  
+  .thunhap-table {
+    display: block;
+    overflow-x: auto;
+  }
+} 
